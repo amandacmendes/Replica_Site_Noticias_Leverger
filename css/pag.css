@@ -25,7 +25,7 @@ nav ul li {
     }
       nav ul li:hover a {
         color: black;
-        background:white;<--white-->
+        background:white;/*<--white-->*/
       }
     
     nav ul li a {
@@ -59,3 +59,20 @@ nav ul ul {
      height:1cm;
      width: 94%;
    }
+
+/*Classes usadas pro acesso rápido*/
+.col-box-item-acesso-rapido {
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  width: 100%;
+  height: 75px;
+  padding-top: 18px;
+  padding-left: 12px
+}
+
+.col-box-item-acesso-rapido .img-slide-ar{
+  margin-right: 10px;
+  height: 45px;
+  max-width: 50px;
+}
